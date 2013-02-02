@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Odder 2014 Search feature.
+ */
+
+include_once 'soc_odder_search.features.inc';

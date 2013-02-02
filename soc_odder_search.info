@@ -1,0 +1,15 @@
+name = Odder 2014 Search
+core = 7.x
+package = Odder 2014
+php = 5.2.4
+version = 7.x-0.1
+project = soc_odder_search
+dependencies[] = entity
+dependencies[] = search_api
+dependencies[] = search_api_db
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[search_api_index][] = default_node_index
+features[search_api_server][] = soc_odder_frontend
+features[views_view][] = soc_odder_search
